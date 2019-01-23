@@ -16,10 +16,6 @@ for f in node_layer.getFeatures() :
         else :
             differ_node.append([f['MESH_ID'], f['NODE_ID'], f['ADJMAP_ID'], f['ADJND_ID']])
 
-print(len(same_node))
-print(len(differ_node))
-print(len(wrong_node))
-
 ## fix node
 for i in differ_node :
     if i[2:] in wrong_node :
