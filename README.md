@@ -7,7 +7,6 @@ Before starting the script, you should finish merging pedestrian network process
 # Preprocessing
 For the script, you should preapre some layers
 * The node layer for the script has nodes that on the disconnected points of crosswalk lines. you can selecte and export them with spatial tools in QGIS.
-* The pedestrian road layer for the script has lines that remove overlapped network. The lines have 1 or 2 or 3 or 6 value in "LINK_FACIL" of attribute table.
 # Needed materials
 - QGIS (upto 3.4 version)
 - Python (upto 3 version)
